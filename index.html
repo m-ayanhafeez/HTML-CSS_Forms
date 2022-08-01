@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* background-color:#CC697D; */
+            /* background-color: aliceblue; */
+            /* background-color: #98806f; */
+            background-image: url("bhallu back.jpg");
+            /* background-color:#384A62 */
+            /* backg */
+          
+        }
+        .Wrap{
+            /* background-color: aqua  ; */
+            
+            /* background-color: #6EDFCB; */
+            background-color: #515151;
+            /* margin-top: 60px; */
+            
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+    
+        
+            /* background-image: url("bears.png");
+                  height: 100px;
+                  width: 175px;  */
+                  border-radius: 40px;
+            height: 600px;
+            width: 1150px;
+           
+            font-size: x-large;
+            /* color: rgb(157, 169, 179); */
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace  ;
+            margin-left: 100px;
+            /* border-radius: 40px; */
+            box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.2), 1px 7px 21px 1px rgba(0, 0, 0, 0.19);
+        }
+        .rightblock{
+            /* display: flex; */
+                /* justify-content: right;
+                align-items: right; */
+            /* display: flex; */
+            /*
+        
+            /* text-align: center;  
+            
+            /* margin-bottom: 700px; */
+            /* background-color: red; */
+          /* float: right; */
+           /* background-color: #384A62  ; */
+           background-color: #9F6D4C ;
+           
+            /* border-radius: 40px;
+            display: block;
+            height: 600px;  */
+            /* float: right;  */
+            width: 675px;
+            border-radius: 40px;
+            /* padding-top: 100px; */
+            padding-left: 20px;
+            /* margin: auto; */
+            /* margin-left: 375px; */
+            height: 600px;  
+            /* border-radius: 40px; */
+            /* border: 1.5px solid black; */
+            /* background-image: url("Picture.jpg");
+                  height: 600px;
+                  width: 575px; 
+                  border-radius: 1px; */
+            box-sizing: border-box;
+            /* padding-bottom: 150px;   */
+              }
+              .choice{
+                  place-items: right;
+                  padding-bottom: 25px;
+              
+                  text-align: center;
+
+              }
+            .back{
+                margin-left: 40px;
+            }
+              /* .leftblock{
+                  /* background-image: url("bears.png"); */
+                  /* height: 200px;
+                  width: 275px; 
+                  display: inline-block;  */
+                
+                
+               /* }  */
+                 /* float: left; */
+                  /* display:block;
+                  background-color: #67DBC8;
+                  height: 600px; 
+                  width: 575pxz;
+              }
+   */
+              
+        /* .Wrap{
+            opacity: 100%;
+        } */
+        /* .leftblock{
+            /* display: inline-block; */
+           
+            /* height: 100px;
+            width: 175px; */
+        .logo{
+            display: inline-block;
+            /* justify-content: left; */
+
+        }
+        
+        .btn{
+            border-radius: 40px;
+            size: 120px;
+            font-size: large;
+            /* background-color: aquamarine; */
+            /* background-color: #79CFC4; */
+            background-color: #EFECEC;
+            color: #515151;         
+            padding: 12px 28px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+        .check1{
+         width: 20px;
+         height: 20px;
+         background-color:rgba(0, 0, 0, 0.2);
+         box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+        }
+        .in{
+            padding: 8px;
+            color: #EFECEC;
+            background-color:#9F6D4C;
+            padding-right: 270px;
+            /* color:white; */
+            border: none;
+            border-bottom: 1.5px solid white
+            ;
+            /* color: aliceblue; */
+           
+        }
+        a{
+            /* color:#78808a; */
+            color: #EFECEC;
+        }
+        .icona{
+            /* margin-bottom: 440px; */
+            /* margin-right: 425px; */
+            border-radius: 50%;
+        }
+        .reg{
+            text-align: center;
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="Wrap">
+        <div class="leftblock">
+            <img src="bearsicon.png" class="icona" width="80px" height="80px" alt="">
+            <h3 class="logo"> Want To Join Our B-Club?  </h3>
+            <img src="bears.png" class="back" width="575px" height="430px" alt=>
+            
+        </div>
+       
+        <div class="rightblock">
+            <form  onsubmit="Add()">
+               
+                <h4 class="reg">Register Yourself !</h4>
+                <div class="choice">
+                <input type="button" value="Sign In" class="btn">    or
+                
+                <a href="" col>Sign up</a><br><br>
+                </div>
+                
+                <label for="">FULL NAME</label><br>
+                <input type="text" id="name" placeholder="Enter Your Full Name" class="in" required><br><br>
+                <label for="">PASSWORD</label><br>
+                <input type="Password" id="pass" placeholder="********" class="in" required><br><br>
+                <label for="">E-MAIL</label><br>
+                <input type="email" id="email" placeholder="Your e-mail goes here" class="in" required><br><br>
+                <input type="checkbox" id="check" class="check1" required>
+
+                <label for="">I agree all Statements in </label>
+                <a href="" font="larger" color="white">Terms of Service</a><br><br>
+                <button class="btn">Sign Up</button>
+                <a href="">I'm already a member</a>
+            </form>
+        </div>
+   
+    </div>  
+</body>
+<script>
+   function Add(){
+           
+       let name1 = document.getElementById("name").value;
+       let email1 = document.getElementById("email").value;
+       let pass1 = document.getElementById("pass").value;
+       console.log(name1)
+       let check2 = document.getElementById("check");
+       
+    alert(name1+'\n'+pass1+'\n'+email1);
+    alert(name1)
+    alert(pass1);
+    alert(email1);
+    return false;
+}
+
+    //    if(name1 == null){
+    //        alert("Enter Your Name");
+    //    }
+    //    else if(email1 == null){
+    //        alert("Enter Your Email");
+    //    }
+    //    else if(pass1 === null){
+    //        alert("Enter your Password");
+    //    }
+    //    else{
+    //     alert("Submitted");
+    //    }
+    //    if (check2 === NULL) {
+    //        alert("Please Accept The terms and Condition")
+    //    }
+    //   else {
+    //        alert("Congrats you are now registered")
+    //    }
+    //    return false;
+   
+  
+
+</script>
+</html>
